@@ -1,0 +1,59 @@
+@media screen and (max-width: 1024px) {
+  #content {
+    width: 80%;
+  }
+  .background{
+    background: url('../img/background2.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    background-size: 110%;
+    background-position: center;
+    top: +50px;
+    /*filter:blur(3px);*/
+    border-bottom: 5px solid #212a45;
+  }
+  nav > ul {
+    margin: 1em auto;
+    float: none;
+    width: 80%;
+    text-align: center;
+    padding-left: 0;
+  }
+  a > li{
+    width: 16%;
+  }
+}
+@media screen and (max-width: 667px) {
+  nav {
+     z-index: 10;
+  }
+  .background {
+    background-size: 150%;
+  }
+  .box {
+    width: 100%;
+    margin: 10px 0;
+    transition: none;
+  }
+  .box:hover {
+      box-shadow: none;
+      transform: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .anchbtn{
+    padding-top: 1.2em;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .anchbtn{
+   padding-top: 0.8em;
+ }
+}
+@media screen and (max-height: 440px){
+  .anchbtn {
+    display: inline-block;
+  }
+}
